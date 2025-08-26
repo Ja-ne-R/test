@@ -20,7 +20,7 @@ function createTable(users) {
         row.appendChild(th);
     });
 
-    data.users.forEach(user => {
+    users.forEach(user => {
         let row = tableBody.insertRow();
         Object.values(user).forEach(value => {
             let cell = row.insertCell();
