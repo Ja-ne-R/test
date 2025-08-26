@@ -8,10 +8,14 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f5a6a6;
-}
-h1 {
     text-align: center;
-    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 table {
@@ -20,10 +24,35 @@ table {
     padding: 8px;
     text-align: center;
     background-color: #fff;
+    margin: 0 auto;
+    width: 80%;
+    
+
     
 }   
 th, td {
     border: 1px solid #000000;
     padding: 8px;
     text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
