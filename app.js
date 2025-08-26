@@ -1,4 +1,4 @@
-fetch('./test.json')
+fetch('https://ja-ne-r.github.io/test/test.json')
 .then(response => response.json())
 .then(data => {
     createTable(data.users);
