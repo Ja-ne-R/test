@@ -22,11 +22,12 @@ table {
     border: 5px solid #000000;
     border-collapse: collapse;
     padding: 8px;
-    text-align: center;
+    text-align: left;
     background-color: #fff;
     margin: 0 auto;
-    width: 80%;
-    
+    width: 70%;
+    margin-bottom: 67px;
+    font-size: 2rem;
 
     
 }   
@@ -55,4 +56,16 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+th {
+    background-color: #f7b25f;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    padding: 15px;
+    background-color: #f4f4f4;
+    margin-right: 20px;
+    position: sticky;
 }
